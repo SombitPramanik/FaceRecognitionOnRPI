@@ -28,10 +28,10 @@ In the given code, the k-NN algorithm is used with:
 - `n_neighbors=1`: This means only the closest neighbor is considered for classification.
 - `weights='distance'`: Closer neighbors have more influence on the classification than farther ones.
 
-## Ball Tree Algorithm
+## Ball Tree Data Structure
 
 ### Overview
-The Ball Tree algorithm is a data structure used to organize points in a multi-dimensional space. It is particularly useful for fast nearest neighbor searches and is an alternative to the k-d tree.
+The Ball Tree is a data structure used to organize points in a multi-dimensional space. It is particularly useful for fast nearest neighbor searches and is an alternative to the k-d tree.
 
 ### How It Works
 1. **Tree Construction**:
