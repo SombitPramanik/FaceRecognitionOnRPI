@@ -1,4 +1,4 @@
-# Final Algorithm Details 
+# Pre-Final Algorithm Details 
 
 ## k-Nearest Neighbors (k-NN) Algorithm
 
