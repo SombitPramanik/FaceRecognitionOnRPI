@@ -1,3 +1,5 @@
+# Final Algorithm Details 
+
 ## k-Nearest Neighbors (k-NN) Algorithm
 
 ### Overview
