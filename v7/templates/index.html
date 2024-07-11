@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Vision</title>
+    <link rel="shortcut icon" href="static/sombit.jpeg" type="image/x-icon">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        .video_feed{
+            width: 80vw;
+            max-width: 40%;
+            height: 80vh;
+            border: 2px dashed green;
+            /* margin: 10px 50%;
+            transform: translate(-50%);
+            justify-self: center; */
+            border-radius: 10px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        h1{
+            text-align: center;
+        }
+        div{
+            display: flex;
+            flex-direction:row;
+            /* justify-content: center; */
+            justify-content: space-evenly;
+        }
+        a{
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            align-items: center;
+            margin: 20px 50%;
+            transform: translate(-50%);
+            color: green;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: 800;
+            background-color: rgb(201, 255, 255);
+            text-decoration: none;
+            width: max-content;
+        }
+    </style>
+</head>
+<body>
+    <h1>Drone Vision</h1>
+    <div>
+        <img class="video_feed" src="{{ url_for('DroneEye') }}" alt="Drone's Eye View" style="width: 100%;">
+        <img class="video_feed" src="{{ url_for('Recognition') }}" alt="Face Recognition View" style="width: 100%;">
+        
+    </div>
+    <a href="/Stop">Stop The Face Recognition & Drone View</a>
+</body>
+</html>
