@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Face Recognition Stream</title>
+    <link rel="shortcut icon" href="static/Sombit.jpeg" type="image/x-icon" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+      #video_feed {
+        width: 80vw;
+        max-width: 80vw;
+        height: 80vh;
+        border: 2px dashed green;
+        margin: 10px 50%;
+        transform: translate(-50%);
+        justify-self: center;
+        border-radius: 10px;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      h1 {
+        text-align: center;
+      }
+      button {
+        padding: 10px;
+        margin: 5px 50% 5px 50%;
+        border-radius: 10px;
+        width: 300px;
+        background-color: rgb(250, 216, 216);
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: medium;
+        font-weight: 800;
+        transform: translate(-50%);
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Face Recognition Stream</h1>
+    <img id="video_feed" src="{{ url_for('Video') }}" />
+    <!-- <img id="video_feed" src="static/Sombit.jpeg" alt="" /> -->
+    <form method="post" action="/stop">
+      <button type="submit">Stop</button>
+    </form>
+  </body>
+</html>

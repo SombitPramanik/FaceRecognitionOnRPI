@@ -1,0 +1,15 @@
+click==8.1.7
+dlib==19.24.2
+Flask==3.0.3
+joblib==1.4.2
+numba==0.60.0
+numpy==1.26.4
+opencv-python==4.10.0.84
+Pillow==8.1.2
+requests==2.31.0
+s3transfer==0.10.1
+scikit-learn==1.5.0
+scipy==1.14.0
+setools==4.5.1
+setuptools==69.0.3
+wheel==0.43.0
