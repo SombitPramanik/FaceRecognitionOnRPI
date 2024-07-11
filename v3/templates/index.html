@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition Video Stream</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        #video_feed{
+            width: 80vw;
+            max-width: 80vw;
+            height: 80vh;
+            border: 2px dashed green;
+            margin: 10px 50%;
+            transform: translate(-50%);
+            justify-self: center;
+            border-radius: 10px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Live View From Drone</h1>
+    <div>
+        <img id="video_feed" src="{{ url_for('video_feed_route') }}" alt="Video Stream" style="width: 100%;">
+    </div>
+</body>
+</html>
