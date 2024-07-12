@@ -49,5 +49,7 @@ def train_face_recognition_model_from_folder(image_folder, model_output_path):
 
     print(f"Model trained and saved to {model_output_path}")
 
+
+filename = input("Enter the File Name : ")
 # Example usage
-train_face_recognition_model_from_folder("Images", "trained_model.joblib")
+train_face_recognition_model_from_folder("DataBase", filename)

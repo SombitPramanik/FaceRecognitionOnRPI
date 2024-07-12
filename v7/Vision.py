@@ -108,7 +108,7 @@ def FaceRecognition(vraFrame):
     detection_thread.start()
     # Load the trained model'
     # This is the Joblib Model 
-    knn_clf = joblib.load("trained_model.joblib")
+    knn_clf = joblib.load("v0.joblib")
     # This is the code for the pickle Model that is not recommend but this is made for backup only purpose
     # with open("trained_model.pkl", "rb") as model_file:
     #     knn_clf = pickle.load(model_file)
