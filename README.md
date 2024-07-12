@@ -1,5 +1,5 @@
 <style>
-    img {border-radius: 10px; background-color: white; width:320px; }
+    img { }
 </style>
 
 # Pre-Final Algorithm Details 
@@ -68,7 +68,7 @@ By combining k-NN with the Ball Tree data Structure, the code achieves efficient
 ### Please Contribute on this Repo or Support me Financially to Keep Alive this Repo
 
 
-<img src="QrCode.svg">
+<img src="QrCode.svg" style="border-radius: 10px; background-color: white; width:320px; margin:0 50%; aline-self:centre;">
 
 Open up any BHARAT pay Enable Payment APP and scan this QrCode to make a small Financial support.
 
