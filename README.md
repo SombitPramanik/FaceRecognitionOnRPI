@@ -65,3 +65,7 @@ By combining k-NN with the Ball Tree data Structure, the code achieves efficient
 
 
 <img src="QrCode.svg" style="border-radius: 10px; background-color: white; width:320px;">
+
+Open up any BHARAT pay Enable Payment APP and scan this QrCode to make a small Financial support.
+
+# Thanks For Visiting this Repo && Thanks to all of Those Friends, Mentors and well wishers to keep me motivated. 
