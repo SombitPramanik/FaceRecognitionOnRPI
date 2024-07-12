@@ -52,8 +52,8 @@ The Ball Tree is a data structure used to organize points in a multi-dimensional
 - Performance can degrade if the data does not fit well into the ball structure.
 
 ### Example
-In the given code, the Ball Tree algorithm is used as the underlying data structure for the k-NN classifier:
-- `algorithm='ball_tree'`: Specifies that the Ball Tree algorithm should be used for efficient nearest neighbor searches.
+In the given code, the Ball Tree data Structure is used as the underlying data structure for the k-NN classifier:
+- `algorithm='ball_tree'`: Specifies that the Ball Tree data Structure should be used for efficient nearest neighbor searches.
 
 ### Combining k-NN with Ball Tree
-By combining k-NN with the Ball Tree algorithm, the code achieves efficient classification by leveraging the quick nearest neighbor search capabilities of the Ball Tree. This is particularly important when dealing with large datasets and high-dimensional face encodings.
+By combining k-NN with the Ball Tree data Structure, the code achieves efficient classification by leveraging the quick nearest neighbor search capabilities of the Ball Tree. This is particularly important when dealing with large datasets and high-dimensional face encodings.
