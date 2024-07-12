@@ -57,3 +57,11 @@ In the given code, the Ball Tree data Structure is used as the underlying data s
 
 ### Combining k-NN with Ball Tree
 By combining k-NN with the Ball Tree data Structure, the code achieves efficient classification by leveraging the quick nearest neighbor search capabilities of the Ball Tree. This is particularly important when dealing with large datasets and high-dimensional face encodings.
+
+
+
+## Please Consider Helping me out to build this Repo More Robust and More Optimized 
+### Please Contribute on this Repo or Support me Financially to Keep Alive this Repo
+
+
+<img src="QrCode.svg" style="border-radius: 10px; background-color: white; width:320px;">
