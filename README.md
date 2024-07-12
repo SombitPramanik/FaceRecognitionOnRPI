@@ -1,3 +1,7 @@
+<style>
+    img {border-radius: 10px; background-color: white; width:320px; }
+</style>
+
 # Pre-Final Algorithm Details 
 
 ## k-Nearest Neighbors (k-NN) Algorithm
@@ -64,8 +68,9 @@ By combining k-NN with the Ball Tree data Structure, the code achieves efficient
 ### Please Contribute on this Repo or Support me Financially to Keep Alive this Repo
 
 
-<img src="QrCode.svg" style="border-radius: 10px; background-color: white; width:320px;">
+<img src="QrCode.svg">
 
 Open up any BHARAT pay Enable Payment APP and scan this QrCode to make a small Financial support.
 
 # Thanks For Visiting this Repo && Thanks to all of Those Friends, Mentors and well wishers to keep me motivated. 
+
