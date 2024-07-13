@@ -1,7 +1,3 @@
-<style>
-    img { }
-</style>
-
 # Pre-Final Algorithm Details 
 
 ## k-Nearest Neighbors (k-NN) Algorithm
